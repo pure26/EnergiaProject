@@ -5912,8 +5912,8 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 }
 
 .heading.heading-2 .heading-title {
-  font-size: 37px;
-  line-height: 54px;
+  font-size: 67px;
+  line-height: 84px;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -5925,7 +5925,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .heading.heading-2 .heading-title {
-    font-size: 30px;
+    font-size: 50px;
     line-height: 1.4;
   }
 }
