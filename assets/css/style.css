@@ -13608,7 +13608,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 
 .map {
   position: relative;
-  height: 470px;
+  height: 170px;
 }
 
 .map iframe {
@@ -19906,8 +19906,6 @@ ul.dropdown-menu > li.has-dropdown > a:before {
   padding-right: 1rem;
   border-right: 1px solid #eaeaea;
 }
-@media screen and (max-width: 1650px) {
-  .nav-item a span {
-    line-height: 1rem;
-  }
+.nav-item a span {
+  line-height: 1.2rem;
 }
