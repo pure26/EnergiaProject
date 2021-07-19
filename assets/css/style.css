@@ -19906,3 +19906,8 @@ ul.dropdown-menu > li.has-dropdown > a:before {
   padding-right: 1rem;
   border-right: 1px solid #eaeaea;
 }
+@media screen and (max-width: 1650px) {
+  .nav-item a span {
+    line-height: 1rem;
+  }
+}
