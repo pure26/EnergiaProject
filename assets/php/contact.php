@@ -1,8 +1,8 @@
 <?php require("PHPMailer/PHPMailerAutoload.php");
 
 // ADD your Email and Name
-$recipientEmail='admin@site.com';
-$recipientName='John Doe';
+$recipientEmail='webmaster2@aramco.com';
+$recipientName='Skype For Business';
 
 //collect the posted variables into local variables before calling $mail = new mailer
 
