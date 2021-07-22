@@ -93,13 +93,16 @@ a {
   background-color: #b89319;
 }
 .widthImgs {
-  width: 100%;
+  width: 70vw;
   height: 100%;
 }
 .sky_div {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-agileits {
@@ -204,8 +207,9 @@ ul li {
   color: #666;
 }
 img {
-  width: 100%;
-  height: 100%;
+  max-width: 60vw;
+  width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 600px) {

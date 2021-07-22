@@ -1,11 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Document</title>
+    <title>Skype for Business Guide for Meetings</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="assets/images/favicon/favicon.png" rel="icon" />
+    <!--  Fonts ==
+    -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!--  Stylesheets==
+    -->
+    <link href="assets/css/vendor.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body class="bodybgg">
+    <header
+      class="header header-light header-topbar header-topbar1 header-shadow"
+      id="navbar-spy"
+    >
+      <div class="top-bar">
+        <p style="color: rgb(235, 235, 235); font-size: 1.2rem">
+          Computer Operations Department/Mobility Support Group
+        </p>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-sticky" id="primary-menu">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="logo logo-dark"
+            src="./preview-institutional.png"
+            alt="Energia Logo" /><img
+            class="logo logo-mobile"
+            src="./preview-institutional.png"
+            alt="Energia Logo"
+        /></a>
+        <div class="module-holder module-holder-phone">
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="index.html#sfbguide"
+                ><span>Skype for Business Guide</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="start-recording.html"
+                ><span>Guide for Meetings Recording</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="optimalaudiosetup.html"
+                ><span>Optimal Audio Setup Guide</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="page-contact.html"
+                ><span>Set up a Meeting on behalf of Someone Else</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="faq2.html"><span>FAQs</span></a>
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="page-contact.html"><span>Feedback</span></a>
+            </li>
+          </ul>
+          <img
+            style="width: 3%; padding: 0; margin-right: 0.5rem"
+            src="./Microsoft_Skype_for_Business_logo.png"
+            alt=""
+          />
+          <span style="color: #000">Skype For Business</span>
+          <div class="module-holder">
+            <div class="module-contact"></div>
+          </div>
+          <!--  End .module-holder-->
+        </div>
+        <!--  End .navbar-collapse-->
+      </nav>
+      <!--  End .navbar-->
+    </header>
+    <div class="text_wrape">
+      <div class="sky_div">
+        <img class="widthImgs" src="img/Skype for Business.png" />
+      </div>
+      <div class="paragraph">
+        <h1>Set up a Skype for Business meeting on behalf of someone else</h1>
+        <p>COMPUTER OPERATIONS DEPT / MOBILITY SUPPORT GROUP</p>
+        <h1>Get set up as a delegate</h1>
+        <p>
+          First, the steps below must be done by the person who is giving
+          delegate access.
+        </p>
+        <p>
+          1. In Outlook, click
+          <b> File > Account Settings > Delegate Access > Add</b><br />
+          2.<b>
+            Find and add the name of the person who is going to be the
+            delegate.</b
+          ><br />
+          3. Click the<b> Calendar</b> menu, and select<b> Editor</b> rights.
+        </p>
+        <img src="/img/meeting1.png" alt="" /> <br />
+        <img src="/img/meeting2.png" alt="" /> <br />
+        <img src="/img/meeting3.png" alt="" />
+        <h3>
+          After that kill both apps Outlook and Skype and re-open them again
+        </h3>
+        <h3>Check the skype client if the delegate is showing.</h3>
+        <img src="/img/meeting4.png" alt="" /> <br />
+        <img src="/img/meeting5.png" alt="" />
+        <h3>
+          From the delegate side, it should also appear under list “people I
+          manage calls for” as below screenshot.
+        </h3>
+        <img src="/img/meeting6.png" alt="" />
+        <h3>
+          If the delegator is not showing, reboot the computer and redo the same
+          steps from the delegator machine after removing the new delegate
+          access from both Skype and Outlook.
+        </h3>
+        <img src="/img/meeting7.png" alt="" />
+        <h3>After that open registry key and remove the following item.</h3>
+        <p>
+          Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Lync\khalid.alotaibi.30@aramco.com
+        </p>
+        <img src="/img/meeting8.png" alt="" />
+        <h3>
+          Then delete all files indie the “Tracing” folder following this path:
+        </h3>
+        <p>C:\Users\alotka0g\AppData\Local\Microsoft\Office\16.0\Lync</p>
+        <img src="/img/meeting9.png" alt="" />
+        <h3>
+          Finally, redo the same steps again for adding a new delegate from
+          Outlook as explained above.
+        </h3>
+      </div>
+    </div>
+  </body>
 </html>
