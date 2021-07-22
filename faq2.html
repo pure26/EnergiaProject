@@ -108,7 +108,629 @@
         <img class="widthImgs" src="img/Skype for Business.png" />
       </div>
       <div class="paragraph">
-        <h2>FAQ</h2>
+        <h1>FAQ</h1>
+        <h3><u>Software not being installed</u></h3>
+        <img src="/img/nfaq1.png" alt="nfaq1" />
+        <h3>Installation stuck in AppCenter</h3>
+        <p>Ensure you have Requirements met: -</p>
+        <ul>
+          <li>Winddows 10</li>
+          <li>Office 2016, 2019</li>
+        </ul>
+        <h3><u>Skype Not Found </u></h3>
+        <h3>Installation Completed but App not Found</h3>
+        <p>Search for lync.exe</p>
+        <h3><u>Signing in Issue </u></h3>
+        <h3>
+          Signing in Issue Contacting Sever and Signing in… (Taking a long time)
+        </h3>
+        <p>
+          Try clicking on “Cancel Sign-in” Next, click on “Delete my sign-in
+          info”. Then Sign in using your Saudi Aramco email. Also make sure to
+          write you email address in this format
+          <b>firstname.lastname@aramco.com</b>
+        </p>
+        <img src="/img/nfaq2.png" alt="nfaq2" />
+        <h3><u>Verifying certificate </u></h3>
+        <img src="/img/nfaq3.png" alt="nfaq3" />
+        <h3>Cannot sign in due to a problem verifying certificate</h3>
+        <p>
+          Kindly, make sure you add the following URLs in the IE Exceptions
+          list:
+        </p>
+        <ul>
+          <li>
+            Go to IE › Internet Options › Connections › LAN settings › Advanced
+          </li>
+          <li>
+            Under Exceptions box Add
+            “sfbp*.aramco.com;sfbwac.aramco.com;webconf.aramco.com;sip.aramco.com".
+          </li>
+          <li>OK › OK › OK</li>
+          <li>Finally, Close the IE and try to login.</li>
+          <img src="/img/nfaq4.png" alt="nfaq4" />
+        </ul>
+        <h3><u>Not Aramco.com Domain (aramcochemicals, aramcotrading?) </u></h3>
+        <h3>
+          Below are the instructions need to be followed by employees from
+          <b>Aramco Trading Company</b> as well as
+          <b>Aramco Chemicals Company</b>
+        </h3>
+        <p>Step 1: Click on options (gear icon)</p>
+        <p>Step 2: Personal > Advanced…</p>
+        <p>
+          Step 3: Manual Configuration > Internal Server: sfbp03.aramco.com > OK
+        </p>
+        <img src="/img/nfaq5.png" alt="nfaq5" />
+        <img src="/img/nfaq6.png" alt="nfaq6" />
+        <img src="/img/nfaq7.png" alt="nfaq7" />
+        <h3><u>Audio and camera issue: </u></h3>
+        <img src="/img/nfaq8.png" alt="nfaq8" />
+        <img src="/img/nfaq9.png" alt="nfaq9" />
+        <h3>Audio and camera issue</h3>
+        <p>
+          Kindly, make sure your monitor has the cable shown in the below photo
+          connected to your PC. Try reconnecting it again if you already have
+          it.
+        </p>
+        <p>
+          This cable will let your PC recognize the Microphone and Camera
+          built-in in your monitor.
+        </p>
+        <img src="/img/nfaq10.png" alt="nfaq10" />
+        <img src="/img/nfaq11.png" alt="nfaq11" />
+
+        <h3><u>Audio settings: </u></h3>
+        <p>Configure Audio settings</p>
+        <p>Click on Setting on Skype Interface</p>
+        <p>Click Audio Device</p>
+        <img src="/img/nfaq12.png" alt="nfaq12" />
+        <img src="/img/nfaq13.png" alt="nfaq13" />
+        <h3><u>Firewall Issue </u></h3>
+        <img src="/img/nfaq14.png" alt="nfaq14" />
+        <ul>
+          <li>Change Settings (require admin privilege)</li>
+          <li>Add Skype for Business and click OK.</li>
+        </ul>
+        <img src="/img/nfaq15.png" alt="nfaq15" />
+        <p>If Skype is not in the list:</p>
+        <ul>
+          <li>
+            Allow another app…
+            <img src="/img/nfaq16.png" alt="nfaq16" />
+          </li>
+          <li>
+            Brows to “C:\Program Files (x86)\Microsoft Office\Office16” and
+            choose “lync.exe”
+            <img src="/img/nfaq17.png" alt="nfaq17" />
+            <img src="/img/nfaq18.png" alt="nfaq18" />
+            <img src="/img/nfaq19.png" alt="nfaq19" />
+          </li>
+        </ul>
+
+        <h3><u>Delegation</u></h3>
+        <h3>
+          How the Manager can delegate access for his secretary to initiate
+          Skype meetings from his calendar?
+        </h3>
+        <p>
+          To address the Skype delegation issue, please follow the below steps.
+        </p>
+        <p>Steps to do from delegator’s machine (Manger, VP, SVP machine):</p>
+        <ul>
+          <li>
+            Remove existing delegation from Outlook of delegator then click OK.
+          </li>
+          <li>Sign-Out and re-Sign-in from Skype for Business client.</li>
+          <li>Add the delegate again to Outlook.</li>
+          <li>Wait for 2 minutes</li>
+          <li>
+            Sign-Out and Delete Sign-In Information from Skype For Business
+            client
+          </li>
+          <li>Wait for 2 minutes</li>
+          <li>Sign-In to Skype For Business client</li>
+          <li>
+            You should see a new group called “Delegate”, and the delegate’s
+            name will be in it.
+          </li>
+        </ul>
+        <p>Steps to do from delegate’s machine:</p>
+        <ul>
+          <li>
+            The delegate Skype For Business client should have a new
+            notification similar to the below:
+            <img src="/img/nfaq20.png" alt="nfaq20" />
+          </li>
+          <li>
+            The delegate then should add a shared calendar of the delegator in
+            MS Outlook
+          </li>
+          <li>
+            To create a Skype meeting on behalf of the delegator, make sure it
+            is the only calendar selected before clicking on “New Skype Meeting”
+            <img src="/img/nfaq21.png" alt="nfaq21" />
+          </li>
+        </ul>
+        <h3><u>Enable Skype Add-In </u></h3>
+        <h3>Enable Skype Add-In from Outlook</h3>
+        <p>
+          Please check if the skype add-in is enabled. If it is not, please
+          enable it as shown below. Try to close Outlook and open it again if it
+          did not work after enabling it.
+        </p>
+        <img src="/img/nfaq22.png" alt="nfaq22" />
+        <img src="/img/nfaq23.png" alt="nfaq23" />
+        <img src="/img/nfaq24.png" alt="nfaq24" />
+        <img src="/img/nfaq25.png" alt="nfaq25" />
+        <h3><u>Skype meeting permission error </u></h3>
+        <h3>I have delegation, but still I got permission error</h3>
+        <p>Please follow the following steps:</p>
+        <ul>
+          <li>
+            Make sure that you are delegated by checking “people I manage call
+            for”
+            <img src="/img/nfaq26.png" alt="nfaq26" />
+          </li>
+          <li>sign out from Skype.</li>
+          <li>
+            create a skype meeting on behalf of someone else.
+            <img src="/img/nfaq27.png" alt="nfaq27" />
+          </li>
+          <li>
+            the following will be appear, Click Ok
+            <img src="/img/nfaq28.png" alt="nfaq28" />
+          </li>
+          <li>Click Skype meeting again.</li>
+          <li>
+            It might give you the same error, so please try after half hour to
+            one hour.
+          </li>
+        </ul>
+        <p>Let me know what you get.</p>
+        <p>Thanks</p>
+        <h3><u>No Client agent in appcenter: </u></h3>
+        <img src="/img/nfaq29.png" alt="nfaq29" />
+        <p>
+          This means that the CCM agent is curropted or not installed, please
+          contact ITHelpDesk to reinstall CCM client “Configuration Manager” for
+          you.
+        </p>
+        <h3><u>Cannot Join Meeting: </u></h3>
+        <h3>When trying to join meeting, Operation was unsuccessful</h3>
+        <img src="/img/nfaq30.png" alt="nfaq30" />
+        <p>
+          Options > Skype Meetings > Make sure user select “Skype for Business”
+          and not the phone number “+966…”
+        </p>
+        <img src="/img/nfaq31.png" alt="nfaq31" />
+        <h3><u>Open Configuration info: </u></h3>
+        <h3>How to Open config info to get server name</h3>
+        <p><b>Please follow the steps: </b></p>
+        <p>Ctrl + Right-Click on Skype icon > small menu should appear</p>
+        <img src="/img/nfaq32.png" alt="nfaq32" />
+        <p>Select Configuration information from the menu</p>
+        <p>
+          Take a screenshot of the info, specially Skype for Business server.
+        </p>
+        <img src="/img/nfaq33.png" alt="nfaq33" />
+        <p>Thank you for your cooperation!</p>
+        <h3><u>Calendar Delegation </u></h3>
+        <h3>Delegate someone to your Calendar</h3>
+        <p>Kindly go to…</p>
+        <p>
+          File > Account Settings > Delegate Access > Add > Search for the user
+          to be delegated > OK
+        </p>
+        <img src="/img/nfaq34.png" alt="nfaq34" />
+        <img src="/img/nfaq35.png" alt="nfaq35" />
+        <p>Find and selected the user to be delegated then ></p>
+        <img src="/img/nfaq36.png" alt="nfaq36" />
+        <h3><u>Cannot Synchronize Address Book </u></h3>
+        <img src="/img/nfaq37.png" alt="nfaq37" />
+        <p>Kindly signout and then sign-in again.</p>
+        <h3><u>Skype Status Doesn’t show in Outlook </u></h3>
+        <h3>Outlook Does not show the Skype status of users</h3>
+        <img src="/img/nfaq38.png" alt="nfaq38" />
+        <p><b>First Solution: </b></p>
+        <p>
+          Sometimes the default software for making calls for the device is
+          still set as “eSpace” and not “Lync”. To check go to “regedit” >
+          HKEY_CURRENT_USER\Software\IM Providers. If the value for
+          “DefaultIMApp is “eSpace then set it to “Lync”. After that, restart
+          both Outlook and Skype. If it is already set to “Lync” then try the
+          second solution below.
+        </p>
+        <img src="/img/nfaq39.png" alt="nfaq39" />
+        <p><b>Second Solution: </b></p>
+        <p>Kill both Outlook and Skype.</p>
+        <p>
+          Then go again to the “regedit” and delete the user’s registry key
+          under
+          HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Lync\firstname.lastname@aramco.com
+        </p>
+        <p>After that open Outlook then Skype (in that order).</p>
+        <img src="/img/nfaq40.png" alt="nfaq40" />
+        <h3><u>Dial in phone number is not shown </u></h3>
+        <h3>Request for Skype Dial in details</h3>
+        <p>
+          Currently we do not support external connection, but we are working on
+          it through web.
+        </p>
+        <p>
+          Regarding the telephony number, there is not integration between Skype
+          and telephony systems.
+        </p>
+        <h3><u>Cannot Join meetings </u></h3>
+        <h3>Cannot join meeting</h3>
+        <p>
+          Also, kindly, make sure you add the following URLs in the IE
+          Exceptions list:
+        </p>
+        <ul>
+          <li>
+            Go to IE › Internet Options › Connections › LAN settings › Advanced
+          </li>
+          <li>
+            Under Exceptions box Add
+            “sfbp*.aramco.com;sfbwac.aramco.com;webconf.aramco.com;".
+          </li>
+          <li>OK › OK › OK</li>
+          <li>Finally, Close the IE and try to login</li>
+        </ul>
+        <img src="/img/nfaq41.png" alt="nfaq41" />
+        <h3><u>Frequent call disconnection: </u></h3>
+        <p><b>Solution 1 </b></p>
+        <p>
+          The main cause of this issue is when there is more than one user
+          logged in to the same machine. If the user who is in the background
+          left Skype logged in before switching to the other user, the other
+          user will experience frequent disconnection in Skype calls roughly
+          every 20-30 seconds. Quick way to solve this issue is to ask the user
+          to restart his machine to force the user in the background to be
+          killed.
+        </p>
+        <p>To check if there is another user on the background go to</p>
+        <p>
+          <b>
+            Task Manager < Users (Tab) check if there is more than one user
+          </b>
+        </p>
+        <p><b>Solution 2 </b></p>
+        <p>
+          Also kindly, make sure you add the following URLs in the IE Exceptions
+          list:
+        </p>
+        <ul>
+          <li>
+            Go to IE › Internet Options › Connections › LAN settings › Advanced
+          </li>
+          <li>
+            Under Exceptions box Add
+            “sfbp*.aramco.com;sfbwac.aramco.com;webconf.aramco.com;".
+          </li>
+          <li>OK › OK › OK</li>
+          <li>Finally, Close the IE.</li>
+          <li>
+            After adding the exceptions, open cmd and type "gpupdate /force" and
+            try to login.
+          </li>
+        </ul>
+        <img src="/img/nfaq42.png" alt="nfaq42" />
+        <p>
+          If not working, try clearing the cache in SIP and Tracing folder of
+          Skype.
+        </p>
+
+        <h3>
+          <u
+            >I’ve replaced my headset with my own headset and it works fine.
+          </u>
+        </h3>
+        <h3>
+          <u
+            >Most likely, the smart Sensor is broken and that is why it is
+            disconnecting the call.
+          </u>
+        </h3>
+        <p>
+          The <b>Plantronics Blackwire C520-M</b> is a Binaural USB headset
+          solution for <b>Microsoft Lync users.</b>
+        </p>
+        <p>
+          Main features include <b>noise cancelling microphone</b>, Hi-Fi Stereo
+          Sound, <b>Wideband audio</b> and Sound Guard protection - The
+          comfortable <b>light weight design</b> provides a secure fit that can
+          be worn all day.
+        </p>
+        <p>
+          The Plantronics Blackwire C520-M has integrated
+          <b>Smart Sensor Technology</b> that allows you to answer an incoming
+          call by <b>simply picking up the headset.</b>
+        </p>
+        <img src="/img/nfaq43.png" alt="nfaq43" />
+
+        <p><b>Thanks. </b></p>
+        <p>
+          If it did not work please collect the following info to send it to
+          Microsoft support.
+        </p>
+        <p>Please send Skype Support the following information.</p>
+        <ul>
+          <li>Network ID (e.g. JULAIDFA)</li>
+          <li>Skype server name (e.g. CW-00097.aramco.com)</li>
+          <li>Call type (e.g. peer-to-peer)</li>
+          <li>Location (e.g. Yanbu)</li>
+          <li>CPU utilization (e.g. from task manager)</li>
+          <li>Connection Type (Ethernet, WIFI)</li>
+          <li>Tracing folder zipped (IMPORTANT!)</li>
+        </ul>
+        <p>
+          This will help us find a permanent solution for this common issue.
+        </p>
+        <p><b>Steps to get Skype server name: </b></p>
+        <p>
+          Below is the steps you can send to the users to help them get the
+          Skype server name they are connected to:
+        </p>
+        <p>1. Ctrl + Right-Click on Skype icon  (Small menu should appear)</p>
+        <img src="/img/nfaq44.png" alt="nfaq44" />
+        <p>2. Select Configuration information from the menu</p>
+        <p>
+          3. Take a screenshot of the info, especially Skype for Business
+          server.
+        </p>
+        <img src="/img/nfaq45.png" alt="nfaq45" />
+        <p><b>Steps to get CPU utilization: </b></p>
+        <p>Open task manager</p>
+        <p><b>Steps to get the Tracing folder zipped (IMPORTANT!) </b></p>
+        <p><b>Make sure you exit from Skype first </b></p>
+        <p>Go to this location in your machine</p>
+        <img src="/img/nfaq46.png" alt="nfaq46" />
+        <p>
+          Compress/Zip the whole Tracing folder and attach it to the email. If
+          the file is big share it with me via cloud and provide the link
+          instead.
+        </p>
+        <img src="/img/nfaq47.png" alt="nfaq47" />
+        <p>Thank you for your cooperation</p>
+        <h3><u>Proxy could not connect to the destination in time </u></h3>
+        <h3>Error message about proxy cannot connect</h3>
+        <img src="/img/nfaq48.png" alt="nfaq48" />
+        <p>
+          Webconf.aramco.com should be added to the Explorer exceptions as
+          follows
+        </p>
+        <p>
+          Kindly, make sure you add the following URLs in the IE Exceptions
+          list:
+        </p>
+        <ul>
+          <li>
+            Go to IE › Internet Options › Connections › LAN settings › Advanced
+          </li>
+          <li>
+            Under Exceptions box Add "
+            sfbp*.aramco.com;sfbwac.aramco.com;webconf.aramco.com;".
+          </li>
+          <li>OK › OK › OK</li>
+          <li>Finally, Close the IE and try to login.</li>
+        </ul>
+        <h3><u>Delegation permission issue </u></h3>
+        <h3>Delegation is granted, but not working</h3>
+        <p>Greetings,</p>
+        <p>
+          To address the Skype delegation issue, please follow the below steps.
+        </p>
+        <p>Steps to do from delegator’s machine (VP,SVP machine):</p>
+        <ul>
+          <li>Remove existing delegation from Outlook of delegator.</li>
+          <li>Wait for 15 min.</li>
+          <li>Sign-Out and re-Sign-in from Skype For Business client.</li>
+          <li>Add the delegate again to Outlook.</li>
+          <li>Wait for 2 minutes</li>
+          <li>
+            Sign-Out and Delete Sign-In Information from Skype For Business
+            client
+          </li>
+          <li>Wait for 2 minutes</li>
+          <li>Sign-In to Skype For Business client</li>
+          <li>
+            You should see a new group called “Delegate”, and the delegate’s
+            name will be in it.
+          </li>
+        </ul>
+
+        <p>Steps to do from delegate’s machine:</p>
+        <ul>
+          <li>
+            The delegate Skype For Business client should have a new
+            notification similar to the below:
+            <img src="/img/nfaq49.png" alt="nfaq49" />
+          </li>
+          <li>
+            The delegate then should add a shared calendar of the delegator in
+            MS Outlook
+          </li>
+          <li>
+            To create a Skype meeting on behalf of the delegator, make sure it
+            is the only calendar selected before clicking on “New Skype Meeting”
+            <img src="/img/nfaq50.png" alt="nfaq50" />
+          </li>
+        </ul>
+        <p>
+          Please let me know if you do face any issues with the provided steps.
+        </p>
+        <ul>
+          <li>Please collect the following data</li>
+          <li>
+            Server name, version and Tracing file as shown in the picture
+            <img src="/img/nfaq51.png" alt="nfaq51" />
+          </li>
+          <li>
+            Get the Tracing file, and compress it by Right-Click send to
+            compress
+          </li>
+          <li>
+            <img src="/img/nfaq52.png" alt="nfaq52" />
+          </li>
+          <li>
+            For the version open settings help about Skype for Business
+            <img src="/img/nfaq53.png" alt="nfaq53" />
+          </li>
+          <li>
+            <img src="/img/nfaq54.png" alt="nfaq54" />
+          </li>
+          <li>Please share these files with skype support.</li>
+        </ul>
+        <h3><u>Skype add-in is not working in outlook: </u></h3>
+        <h3>Add-in disappear</h3>
+        <p>
+          Change the following Registry key to enable the Skype add-in in
+          Outlook at all times
+        </p>
+        <p>
+          HKEY_CURRENT_USER\Software
+          \Microsoft\Office\Outlook\Addins\UCAddin.LyncAddin.1
+        </p>
+        <p>Change loadBehaviour to 3 instead of 0.</p>
+        <img src="/img/nfaq55.png" alt="nfaq55" />
+        <h3><u>Skype High CPU utilization: </u></h3>
+        <h3>see Skype Process taking high CPU (20% and above</h3>
+        <p>
+          Please follow these steps if you see Skype Process taking high CPU
+          (20% and above ) and share Dump File with me
+        </p>
+        <p>Open Task Manager :</p>
+        <img src="/img/nfaq56.png" alt="nfaq56" />
+        <p>Dump File location :</p>
+        <img src="/img/nfaq57.png" alt="nfaq57" />
+        <h3><u>How to install Skype 2019: </u></h3>
+        <h3>How to install Skype 2019</h3>
+        <p>Greetings,</p>
+        <p>
+          To Install Skype 2019, Office 2019 must be installed first using the
+          following link.
+        </p>
+        <a
+          href="https://appcenter.aramco.com.sa/esd/Items/Details?PackageId=2348"
+          >https://appcenter.aramco.com.sa/esd/Items/Details?PackageId=2348</a
+        >
+        <p>Note: Office 2016 will be upgraded to 2019</p>
+        <p>Thanks</p>
+        <h3><u>Calling Feature is disabled </u></h3>
+        <h3>I cannot call someone from outlook</h3>
+        <p>Please use the following to call from outlook,</p>
+        <img src="/img/nfaq58.png" alt="nfaq58" />
+        <p>Thanks</p>
+        <h3><u>How to control meeting settings </u></h3>
+        <h3>I cannot join a meeting, It put me in lobby?</h3>
+        <p>Please use the following to call from outlook,</p>
+        <img src="/img/nfaq59.png" alt="nfaq59" />
+        <p>Thanks</p>
+        <h3><u>Export Meeting Participants List During Meetings </u></h3>
+        <h3>How can I export participants list who attended the meeting?</h3>
+        <p>Steps to export participants list:</p>
+        <p>While you are in a meeting call, click on My Notes…</p>
+        <img src="/img/nfaq60.png" alt="nfaq60" />
+        <p>
+          Double Click on <b>Quick Notes</b> > OneNote will open listing the
+          participants. The list will be updated automatically during the
+          meeting. So, new participants will be added to the list in real-time
+          in addition to the participants who share content during the meeting.
+        </p>
+        <img src="/img/nfaq61.png" alt="nfaq61" />
+        <p><b>Example</b></p>
+        <img src="/img/nfaq62.png" alt="nfaq62" />
+        <p>sfbp*.aramco.com;sfbwac.aramco.com;webconf.aramco.com;</p>
+        <h3><u>Call History is Missing & Outlook Integration Error </u></h3>
+        <img src="/img/nfaq63.png" alt="nfaq63" />
+        <h3>Could not find any history record in Skype</h3>
+        <ul>
+          <li>Disable cached mode in Outlook.</li>
+          <li>
+            Close Outlook and “exit” from Skype. (Exiting from Skype is not the
+            same as closing it)
+          </li>
+          <li>Enable cached mode in Outlook with a period of 1 year</li>
+        </ul>
+        <p>Cached mode can be modified from:</p>
+        <img src="/img/nfaq64.png" alt="nfaq64" />
+        <p>
+          Note: - New edit 2021 you cannot do it without set pass as
+          administrator
+        </p>
+        <p>
+          So, get the set pass access the go to registry Editor than Follow this
+          path
+        </p>
+        <img src="/img/nfaq65.png" alt="nfaq65" />
+        <img src="/img/nfaq66.png" alt="nfaq66" />
+        <p>Than follow this path after you enter Network ID:</p>
+        <p>
+          <b
+            >Computer\HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\outlook\cached
+            mode
+          </b>
+        </p>
+        <p>
+          <b
+            >Computer\HKEY_USERS\Your User Network ID \Software\
+            Software\Policies\Microsoft\office\16.0\outlook\cached mode
+          </b>
+        </p>
+        <p>
+          <b
+            >After that delete the Enable file than back to outlook client: -
+          </b>
+        </p>
+        <ul>
+          <li>Disable cached mode in Outlook.</li>
+          <li>
+            Close Outlook and “exit” from Skype. (Exiting from Skype is not the
+            same as closing it)
+          </li>
+          <li>Enable cached mode in Outlook with a period of 1 year</li>
+        </ul>
+        <img src="/img/nfaq67.png" alt="nfaq67" />
+        <img src="/img/nfaq68.png" alt="nfaq68" />
+        <h3><u>PowerPoint Video does not play </u></h3>
+        <h3>Could not be able to play video in powerpoint</h3>
+        <ul>
+          <li>Open your PowerPoint slides</li>
+          <li>
+            Click on File Tab
+            <img src="/img/nfaq69.png" alt="nfaq69" />
+          </li>
+          <li>
+            Click on Optimize Compatibility
+            <img src="/img/nfaq70.png" alt="nfaq70" />
+          </li>
+          <li>After the loading is done, save your slides.</li>
+        </ul>
+
+        <h3><u>Video Slowness or Black Screen </u></h3>
+        <h3>
+          User is experiencing slowness in video sharing or other users can only
+          see a black screen.
+        </h3>
+        <p>
+          If the user is using a big monitor, try to lower the screen
+          resolution. This will significantly enhance the performance of video
+          sharing and also could fix the black screen.
+        </p>
+        <img src="/img/nfaq71.png" alt="nfaq71" />
+        <h3><u>General Resolution for other issues </u></h3>
+        <h3>Having still issues even after implementing solutions above?</h3>
+        <p><b>Delete</b> the Lync registry key and the Tracing folder</p>
+        <p>
+          <b>Registry key</b>
+          Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Lync\firstname.Lastname@aramco.com
+        </p>
+        <img src="/img/nfaq72.png" alt="nfaq72" />
+        <p><b>Tracing folder (Skype needs to be closed first) </b></p>
+        <img src="/img/nfaq73.png" alt="nfaq73" />
+
         <h3><u>Questions about Outlook</u></h3>
         <h3>
           How do get Skype for Business presence status to show up in Outlook?
