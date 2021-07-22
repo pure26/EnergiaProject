@@ -4,12 +4,11 @@
 }
 
 .text_wrape {
-  width: 1260px;
+  /* width: 1260px; */
+  width: 70vw;
   margin: 3em auto;
 }
 .text_wrape h2 {
-  text-align: center;
-  font-size: 29px;
   font-weight: bold;
   margin-bottom: 1em;
 }
@@ -30,7 +29,6 @@
 }
 
 .col_bg h2 {
-  font-size: 21px;
   text-align: left;
   padding: 0 25px;
   padding-right: 0;
@@ -51,7 +49,6 @@
   text-align: left;
   padding: 13px 30px;
   color: #fff;
-  font-size: 14px;
   background-color: #4db963;
   margin-right: 5px;
   margin-left: 17px;
@@ -65,7 +62,6 @@
 .col_bg i {
   color: #fff;
   padding: 25px;
-  font-size: 40px;
 }
 
 a {
@@ -98,7 +94,7 @@ a {
 }
 .widthImgs {
   width: 100%;
-  height: 300px;
+  height: 100%;
 }
 .sky_div {
   padding-left: 15px;
@@ -128,13 +124,11 @@ a {
   font-weight: 500;
   color: #555;
   text-align: left;
-  font-size: 14px;
 }
 .sub-main input[type="text"],
 .sub-main input[type="password"],
 .texts {
   outline: none;
-  font-size: 14px;
   margin: 0px 0px 15px 0;
   color: #555;
   height: 25px;
@@ -149,7 +143,6 @@ a {
 }
 
 .sub-head {
-  font-size: 20px;
   padding: 0;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -172,7 +165,6 @@ a {
   background: #f7931e;
   border: none;
   padding: 8px 23px;
-  font-size: 13px;
   border-radius: 0;
   width: 100%;
   cursor: pointer;
@@ -203,7 +195,6 @@ ul li li {
 }
 
 h3 {
-  font-size: 23px;
   font-weight: 600;
 }
 
@@ -215,4 +206,13 @@ ul li {
 img {
   width: auto;
   height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .text_wrape {
+    width: 100vw;
+  }
+  img {
+    width: 100%;
+  }
 }

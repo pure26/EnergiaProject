@@ -1,80 +1,205 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Skype for Business Guide for Meetings</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet"> 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="style.css">
- 
-</head>
-<body class="bodybgg">
-	<div class="text_wrape">
-		<div class="sky_div">
-		<img class="widthImgs" src="img/Skype for Business.png">
-		</div>
-		<div class="paragraph">
-			 
-						<h2>Meetings</h2>
-					 <h3>Managing Meetings </h3>
-			<p>Skype for Business lets you conduct audio, video, and web conferencing on the go. You can
-easily plan an online meeting well in advance, in addition to hosting one in real time. As
-many as 250 people can join a meeting with their individual devices.</p>
-		<h3>Schedule a Meeting</h3>
-		<h3>Schedule a Meeting in Outlook</h3>
-	<p>Skype for Business can be easily integrated with the Outlook plugin. This allows you to
-schedule your online meetings through Outlook with a single click. The presenter can choose
-a meeting topic and can also determine which participants can join the meeting. The details
-and information for a particular meeting or conference call are available on the Outlook
-template.	</p>
+  <head>
+    <title>Skype for Business Guide for Meetings</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="assets/images/favicon/favicon.png" rel="icon" />
+    <!--  Fonts ==
+    -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!--  Stylesheets==
+    -->
+    <link href="assets/css/vendor.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="bodybgg">
+    <header
+      class="header header-light header-topbar header-topbar1 header-shadow"
+      id="navbar-spy"
+    >
+      <div class="top-bar">
+        <p style="color: rgb(235, 235, 235); font-size: 1.2rem">
+          Computer Operations Department/Mobility Support Group
+        </p>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-sticky" id="primary-menu">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="logo logo-dark"
+            src="./preview-institutional.png"
+            alt="Energia Logo" /><img
+            class="logo logo-mobile"
+            src="./preview-institutional.png"
+            alt="Energia Logo"
+        /></a>
+        <div class="module-holder module-holder-phone">
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="index.html#sfbguide"
+                ><span>Skype for Business Guide</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="start-recording.html"
+                ><span>Guide for Meetings Recording</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="optimalaudiosetup.html"
+                ><span>Optimal Audio Setup Guide</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="page-contact.html"
+                ><span>Set up a Meeting on behalf of Someone Else</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="faq2.html"><span>FAQs</span></a>
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="page-contact.html"><span>Feedback</span></a>
+            </li>
+          </ul>
+          <img
+            style="width: 3%; padding: 0; margin-right: 0.5rem"
+            src="./Microsoft_Skype_for_Business_logo.png"
+            alt=""
+          />
+          <span style="color: #000">Skype For Business</span>
+          <div class="module-holder">
+            <div class="module-contact"></div>
+          </div>
+          <!--  End .module-holder-->
+        </div>
+        <!--  End .navbar-collapse-->
+      </nav>
+      <!--  End .navbar-->
+    </header>
+    <div class="text_wrape">
+      <div class="sky_div">
+        <img class="widthImgs" src="img/Skype for Business.png" />
+      </div>
+      <div class="paragraph">
+        <h2>Meetings</h2>
+        <h3>Managing Meetings</h3>
+        <p>
+          Skype for Business lets you conduct audio, video, and web conferencing
+          on the go. You can easily plan an online meeting well in advance, in
+          addition to hosting one in real time. As many as 250 people can join a
+          meeting with their individual devices.
+        </p>
+        <h3>Schedule a Meeting</h3>
+        <h3>Schedule a Meeting in Outlook</h3>
+        <p>
+          Skype for Business can be easily integrated with the Outlook plugin.
+          This allows you to schedule your online meetings through Outlook with
+          a single click. The presenter can choose a meeting topic and can also
+          determine which participants can join the meeting. The details and
+          information for a particular meeting or conference call are available
+          on the Outlook template.
+        </p>
 
-					<ul>
-					<li>Open your Outlook Calendar, click the Home tab, and click New Skype Meeting.</li>
-					<li> Complete the meeting request just like you normally would.</li>
-				  </ul>
- <img src="img/c5.png"/> 
- 	<h3>Set Meeting Options	</h3>
-<p>You can set some meeting options in Outlook before you even send the meeting request,
-like who will be able to get into the meeting directly and who waits in the virtual lobby.</p>
-  <img src="img/c6.png"/> 
- 
-	<h3> Manage Meeting Participants	</h3>
-<p>Meeting getting unruly? If you are the presenter, you are in control.</p>
+        <ul>
+          <li>
+            Open your Outlook Calendar, click the Home tab, and click New Skype
+            Meeting.
+          </li>
+          <li>Complete the meeting request just like you normally would.</li>
+        </ul>
+        <img src="img/c5.png" />
+        <h3>Set Meeting Options</h3>
+        <p>
+          You can set some meeting options in Outlook before you even send the
+          meeting request, like who will be able to get into the meeting
+          directly and who waits in the virtual lobby.
+        </p>
+        <img src="img/c6.png" />
 
-<ul>
-					<li>Click the Participants button user group to open the Participants pane so you can see a
-list of everyone in the meeting.</li>
-					<li>  Click the Participant Actions button.</li>
-					<li> Click one or multiple buttons to apply these settings to all attendees.</li>
-				  </ul>
-				    <img src="img/c7.png"/> 
-	<h3>Join a Meeting</h3>
-<p>This feature allows employees to join your meeting with a single click. If the meeting was
-scheduled well in advance, participants can join conveniently from their calendar meeting
-reminders.</p> 
-	 <img src="img/c8.png"/> 
- <p> After joining the meeting, the conversation window shown below will appear. This window
-shows the number of participating members and allows them to chat with each other.
-Clicking on the number of participants will show a list of them.</p>
- <img src="img/c9.png"/> 
- <p> At any point during the meeting you may invite more individuals by clicking on the Invite
-More People button at the top-right corner of the conversation window.  </p> 
+        <h3>Manage Meeting Participants</h3>
+        <p>
+          Meeting getting unruly? If you are the presenter, you are in control.
+        </p>
 
-	<h3>Outlook Conversation History	</h3>
-	<ul>
-					<li>You can see all your Skype for Business activity from your Outlook window by clicking
-on Conversation History from the left panel.</li>
-					<li> As with your regular inbox mail, your Skype activity is grouped by date and arranged
-from most to least recent.</li>
-					<li> Your history includes past conversations, meetings, calls made/received, and any
-other Skype activity.</li>
-				  </ul>
-				   <img src="img/c10.png"/> 
-				   <img src="img/d1.png"/> 
-	
-	<div class="diver"></div>
-	  
-		</div>
-	</div> 
-</body>
+        <ul>
+          <li>
+            Click the Participants button user group to open the Participants
+            pane so you can see a list of everyone in the meeting.
+          </li>
+          <li>Click the Participant Actions button.</li>
+          <li>
+            Click one or multiple buttons to apply these settings to all
+            attendees.
+          </li>
+        </ul>
+        <img src="img/c7.png" />
+        <h3>Join a Meeting</h3>
+        <p>
+          This feature allows employees to join your meeting with a single
+          click. If the meeting was scheduled well in advance, participants can
+          join conveniently from their calendar meeting reminders.
+        </p>
+        <img src="img/c8.png" />
+        <p>
+          After joining the meeting, the conversation window shown below will
+          appear. This window shows the number of participating members and
+          allows them to chat with each other. Clicking on the number of
+          participants will show a list of them.
+        </p>
+        <img src="img/c9.png" />
+        <p>
+          At any point during the meeting you may invite more individuals by
+          clicking on the Invite More People button at the top-right corner of
+          the conversation window.
+        </p>
+
+        <h3>Outlook Conversation History</h3>
+        <ul>
+          <li>
+            You can see all your Skype for Business activity from your Outlook
+            window by clicking on Conversation History from the left panel.
+          </li>
+          <li>
+            As with your regular inbox mail, your Skype activity is grouped by
+            date and arranged from most to least recent.
+          </li>
+          <li>
+            Your history includes past conversations, meetings, calls
+            made/received, and any other Skype activity.
+          </li>
+        </ul>
+        <img src="img/c10.png" />
+        <img src="img/d1.png" />
+
+        <div class="diver"></div>
+      </div>
+    </div>
+  </body>
 </html>

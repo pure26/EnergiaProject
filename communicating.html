@@ -1,175 +1,361 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Skype for Business Guide for Meetings</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet"> 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="style.css">
- 
-</head>
-<body class="bodybgg">
-	<div class="text_wrape">
-		<div class="sky_div">
-		<img class="widthImgs" src="img/Skype for Business.png">
-		</div>
-		<div class="paragraph">
-			 
-		<h2>Communicating with Contacts</h2>
-		<h3>Instant Messaging</h3>
-		<p>Use instant messaging (IM) to touch base with your contacts right away. Send and receive
-text messages in real time over an Internet Protocol network, such as the Internet, or an
-organization's corporate network. Instant messaging is available for both Skype-to-Skype and
-multiparty communication. IM text is encrypted for enhanced security; however it is not
-considered as an official way of communication.</p>
-	
-	<ul>
-			<li>In your Contacts list, point to the contact you want to IM. If you want to IM with more than one contact, hold down the Ctrl key and click each contact name.</li>
-			<li>Click the IM button.</li>
-			<li>Type your message and press the Enter key on your keyboard.</li>
-			</ul>
-			<img src="img/a9.png"/>
-			<div class="text_centre">
-			<h5>Need to add someone to the IM?</h5>
-			<p>From the main Skype for Business window, drag a contact pic onto the IM window.</p>
-</div>
-		
-		<h3>Show High Importance</h3> 
-		<p>Type in your message in the empty text field that appears, and press the "Enter" key
-after each message to send it. Click the "!" icon to set specify this message as having
-high importance.</p>
- 		<img src="img/b1.png"/>
-		
-		<h3>Set Font Settings</h3>
-		<p>You can change the IM font settings by clicking on the more options icon (see below)
-and selecting Change Font.</p>
-		<img src="img/b2.png"/>
-		<h3>Share Multimedia </h3>
-		<p>Add audio, video and share files in an IM conversation</p>
-		<img src="img/b3.png"/> 
-			<h3>Switch between Conversations</h3>
-			<p>If you have several conversations or meetings going on at the same time, Skype for
-Business displays them all in one place, so you can toggle between them.</p>
-<p>Click a tab on the left to view an IM conversation.</p>
-			<img src="img/b4.png"/> 
-			<h3>Find IM Conversation History</h3>
-			<p>If you use Outlook and Exchange, Skype for Business automatically saves your IM conversation history. To view or continue a previous IM conversation or see an IM request you missed:</p>
-			 <ul>
-			<li>Click the Conversations tab.</li>
-			<li>Click the All or Missed tab. If you don’t see the conversation you’re looking for, click View More in Outlook at the bottom of the list.</li>
-			<li>Double-click the conversation that you want to open.</li>
-			</ul>
-			<img src="img/b5.png"/>
-				<h3>Audio Calls</h3>
-				<h3>Setup Audio Device</h3>
- <p>First things first: Make sure your microphone is enabled and the microphone/speaker volume is set correctly before starting your audio call.</p>
-<p>Set up your audio device and check the quality. You can use your computer’s mic and speakers, plug in a headset.</p>
+  <head>
+    <title>Skype for Business Guide for Meetings</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="assets/images/favicon/favicon.png" rel="icon" />
+    <!--  Fonts ==
+    -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!--  Stylesheets==
+    -->
+    <link href="assets/css/vendor.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="bodybgg">
+    <header
+      class="header header-light header-topbar header-topbar1 header-shadow"
+      id="navbar-spy"
+    >
+      <div class="top-bar">
+        <p style="color: rgb(235, 235, 235); font-size: 1.2rem">
+          Computer Operations Department/Mobility Support Group
+        </p>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-sticky" id="primary-menu">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="logo logo-dark"
+            src="./preview-institutional.png"
+            alt="Energia Logo" /><img
+            class="logo logo-mobile"
+            src="./preview-institutional.png"
+            alt="Energia Logo"
+        /></a>
+        <div class="module-holder module-holder-phone">
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="index.html#sfbguide"
+                ><span>Skype for Business Guide</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="start-recording.html"
+                ><span>Guide for Meetings Recording</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="optimalaudiosetup.html"
+                ><span>Optimal Audio Setup Guide</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="page-contact.html"
+                ><span>Set up a Meeting on behalf of Someone Else</span></a
+              >
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="faq2.html"><span>FAQs</span></a>
+            </li>
+            <li class="nav-item" id="contact" data-hover="">
+              <a href="page-contact.html"><span>Feedback</span></a>
+            </li>
+          </ul>
+          <img
+            style="width: 3%; padding: 0; margin-right: 0.5rem"
+            src="./Microsoft_Skype_for_Business_logo.png"
+            alt=""
+          />
+          <span style="color: #000">Skype For Business</span>
+          <div class="module-holder">
+            <div class="module-contact"></div>
+          </div>
+          <!--  End .module-holder-->
+        </div>
+        <!--  End .navbar-collapse-->
+      </nav>
+      <!--  End .navbar-->
+    </header>
+    <div class="text_wrape">
+      <div class="sky_div">
+        <img class="widthImgs" src="img/Skype for Business.png" />
+      </div>
+      <div class="paragraph">
+        <h2>Communicating with Contacts</h2>
+        <h3>Instant Messaging</h3>
+        <p>
+          Use instant messaging (IM) to touch base with your contacts right
+          away. Send and receive text messages in real time over an Internet
+          Protocol network, such as the Internet, or an organization's corporate
+          network. Instant messaging is available for both Skype-to-Skype and
+          multiparty communication. IM text is encrypted for enhanced security;
+          however it is not considered as an official way of communication.
+        </p>
 
-<ul>
-			<li>Click Select Your Primary Device in the lower-left corner of the main Skype for Business window.</li>
-			<li> Click Audio Device Settings.</li>
-			<li>Pick your device from the Audio Device menu, and adjust the speaker and mic volume.</li>
-			</ul>
- <img src="img/b6.png"/>
+        <ul>
+          <li>
+            In your Contacts list, point to the contact you want to IM. If you
+            want to IM with more than one contact, hold down the Ctrl key and
+            click each contact name.
+          </li>
+          <li>Click the IM button.</li>
+          <li>Type your message and press the Enter key on your keyboard.</li>
+        </ul>
+        <img src="img/a9.png" />
+        <div class="text_centre">
+          <h5>Need to add someone to the IM?</h5>
+          <p>
+            From the main Skype for Business window, drag a contact pic onto the
+            IM window.
+          </p>
+        </div>
 
-<h3>Start a Call</h3>
+        <h3>Show High Importance</h3>
+        <p>
+          Type in your message in the empty text field that appears, and press
+          the "Enter" key after each message to send it. Click the "!" icon to
+          set specify this message as having high importance.
+        </p>
+        <img src="img/b1.png" />
 
-<ul>
-			<li>Hover on a contact’s pic until the quick menu appears.</li>
-			<li> Click the Phone button.</li>
-			</ul>
-			 <img src="img/b7.png"/>
-			<p>Alternatively, you can click the phone icon on any open chat window to start an
-audio call with the person you're chatting with</p>
- <img src="img/b8.png"/>
-<h3>Start a Conference Call</h3>
-<ul>
-			<li> In your Contacts list, select multiple contacts by holding the Ctrl key, and clicking
-the names.</li>
-			<li> Right-click any of the selected names, then click start a Conference Call.</li>
-			<li> Click Skype Call.</li>
-			</ul>
-  <img src="img/b9.png"/>
-<h3>Answer a Call</h3>
-	<p>When someone calls you, an alert pops up in the lower-right of your screen.	</p>
-	<ul>
-			<li>To answer the call, click anywhere on the photo area.</li>
-			<li> To reject the call, click Ignore.</li>
-			<li> To start an instant messaging (IM) conversation with the caller instead of an audio
-call, click Options, and then Reply by IM.</li>
-			<li> To reject the call and other calls, until you change your status click Options, and
-then Set to Do not Disturb.</li>
-		 
-			</ul>
-			  <img src="img/b10.png"/>
-	<h3>Invite more people to a call </h3>
-	<ul>
-			<li>In the Meeting pane, click or, Pluse Icon in the Participants pane, click Invite More People.</li>
-			<li> Select or multi-select (Ctrl-click) from your contacts, or type someone’s name or
-phone number in the Search field, then select them from the results. Click OK.</li>
-			<li>Your new invitees receive a request to join your call.</li>
-	  
-			</ul>
-			
-<h3>Video Calls</h3>
-<h3>Setup Video Device</h3>
-<ul>
-			<li>You need a camera to share video of yourself, but you don’t need one to see someone else’s video.</li>
-			<li> From the main screen, click Tools then Video Device Settings.</li>
-			<li>If you see you, you’re set! If not, make adjustments. Click Camera Settings.</li>
-		
-			</ul>
-			<img src="img/c1.png"/> 
-		<h3>Start a Video Call</h3>
-		
-			<ul>
-			<li>Tap a contact’s picture.</li>
-			<li>Tap the Video button.</li>
-			<li>A message pops up on the other person’s screen asking if they want to accept your call. (To stop showing video of you at any point, just click the Video button again.)</li> 
-			</ul>
-			<div class="text_centre">During an IM or Skype for Business audio call, click the Video button to make it a video call.</div>
-			 <img src="img/c2.png"/> 
-			
-			<h3>Choose a View </h3>
-				<ul>
-			<li>In the conversation window, click the Pop out video gallery arrow.</li>
-			<li>Click the Pick a layout button and choose a view:
-				<ul>
-					<li>Gallery View to show all the participants’ video streams.</li>
-					<li>Speaker View to show only the presenter’s.</li>
-					<li>Content View to show only the meeting content.</li>
-					<li>Compact View to show pics of the participants in a compact window.</li>
-				</ul>
-			</li>
-			<li> Click Full Screen View for a large view of the video streams.</li> 
-			<li> Click Pop in the video gallery to show the gallery in the conversation window
-again.</li> 
- 
-			</ul>
-			
- <img src="img/c3.png"/> 
-<h3>Answer a Video Call</h3>
-<p>When someone calls you, you will get an alert in the lower right of your desktop. Make sure you are not wearing pajamas and that you don’t have lettuce in your teeth!</p>
-	
-					<ul>
-					<li>To answer, click their pic.</li>
-					<li>To ignore, click Ignore.</li>
-					<li>To start an instant messaging (IM) conversation with the caller instead of an audio call, click Options, and then Reply by IM. To reject the call and other calls, until you change your status, click Options, and then Set to Do not Disturb.</li>
-					</ul>
- 
-<h3>Start a Video Meeting </h3>
-<p>You can start an ad-hoc video meeting any time. If people are available you can bring them into a meeting now instead of scheduling one for later.</p>
+        <h3>Set Font Settings</h3>
+        <p>
+          You can change the IM font settings by clicking on the more options
+          icon (see below) and selecting Change Font.
+        </p>
+        <img src="img/b2.png" />
+        <h3>Share Multimedia</h3>
+        <p>Add audio, video and share files in an IM conversation</p>
+        <img src="img/b3.png" />
+        <h3>Switch between Conversations</h3>
+        <p>
+          If you have several conversations or meetings going on at the same
+          time, Skype for Business displays them all in one place, so you can
+          toggle between them.
+        </p>
+        <p>Click a tab on the left to view an IM conversation.</p>
+        <img src="img/b4.png" />
+        <h3>Find IM Conversation History</h3>
+        <p>
+          If you use Outlook and Exchange, Skype for Business automatically
+          saves your IM conversation history. To view or continue a previous IM
+          conversation or see an IM request you missed:
+        </p>
+        <ul>
+          <li>Click the Conversations tab.</li>
+          <li>
+            Click the All or Missed tab. If you don’t see the conversation
+            you’re looking for, click View More in Outlook at the bottom of the
+            list.
+          </li>
+          <li>Double-click the conversation that you want to open.</li>
+        </ul>
+        <img src="img/b5.png" />
+        <h3>Audio Calls</h3>
+        <h3>Setup Audio Device</h3>
+        <p>
+          First things first: Make sure your microphone is enabled and the
+          microphone/speaker volume is set correctly before starting your audio
+          call.
+        </p>
+        <p>
+          Set up your audio device and check the quality. You can use your
+          computer’s mic and speakers, plug in a headset.
+        </p>
 
-<ul>
-					<li>In your Contacts list, select multiple contacts by holding the Ctrl key and clicking their pics.</li>
-					<li>Right-click one of the selected names, and click Start a Video Call. When you start a video call, you automatically use Skype for Business computer audio</li>
-				 
-					</ul>
-					 <img src="img/c4.png"/> 
-					
-						<div class="diver"></div>
-						  
-		</div>
-	</div> 
-</body>
+        <ul>
+          <li>
+            Click Select Your Primary Device in the lower-left corner of the
+            main Skype for Business window.
+          </li>
+          <li>Click Audio Device Settings.</li>
+          <li>
+            Pick your device from the Audio Device menu, and adjust the speaker
+            and mic volume.
+          </li>
+        </ul>
+        <img src="img/b6.png" />
+
+        <h3>Start a Call</h3>
+
+        <ul>
+          <li>Hover on a contact’s pic until the quick menu appears.</li>
+          <li>Click the Phone button.</li>
+        </ul>
+        <img src="img/b7.png" />
+        <p>
+          Alternatively, you can click the phone icon on any open chat window to
+          start an audio call with the person you're chatting with
+        </p>
+        <img src="img/b8.png" />
+        <h3>Start a Conference Call</h3>
+        <ul>
+          <li>
+            In your Contacts list, select multiple contacts by holding the Ctrl
+            key, and clicking the names.
+          </li>
+          <li>
+            Right-click any of the selected names, then click start a Conference
+            Call.
+          </li>
+          <li>Click Skype Call.</li>
+        </ul>
+        <img src="img/b9.png" />
+        <h3>Answer a Call</h3>
+        <p>
+          When someone calls you, an alert pops up in the lower-right of your
+          screen.
+        </p>
+        <ul>
+          <li>To answer the call, click anywhere on the photo area.</li>
+          <li>To reject the call, click Ignore.</li>
+          <li>
+            To start an instant messaging (IM) conversation with the caller
+            instead of an audio call, click Options, and then Reply by IM.
+          </li>
+          <li>
+            To reject the call and other calls, until you change your status
+            click Options, and then Set to Do not Disturb.
+          </li>
+        </ul>
+        <img src="img/b10.png" />
+        <h3>Invite more people to a call</h3>
+        <ul>
+          <li>
+            In the Meeting pane, click or, Pluse Icon in the Participants pane,
+            click Invite More People.
+          </li>
+          <li>
+            Select or multi-select (Ctrl-click) from your contacts, or type
+            someone’s name or phone number in the Search field, then select them
+            from the results. Click OK.
+          </li>
+          <li>Your new invitees receive a request to join your call.</li>
+        </ul>
+
+        <h3>Video Calls</h3>
+        <h3>Setup Video Device</h3>
+        <ul>
+          <li>
+            You need a camera to share video of yourself, but you don’t need one
+            to see someone else’s video.
+          </li>
+          <li>From the main screen, click Tools then Video Device Settings.</li>
+          <li>
+            If you see you, you’re set! If not, make adjustments. Click Camera
+            Settings.
+          </li>
+        </ul>
+        <img src="img/c1.png" />
+        <h3>Start a Video Call</h3>
+
+        <ul>
+          <li>Tap a contact’s picture.</li>
+          <li>Tap the Video button.</li>
+          <li>
+            A message pops up on the other person’s screen asking if they want
+            to accept your call. (To stop showing video of you at any point,
+            just click the Video button again.)
+          </li>
+        </ul>
+        <div class="text_centre">
+          During an IM or Skype for Business audio call, click the Video button
+          to make it a video call.
+        </div>
+        <img src="img/c2.png" />
+
+        <h3>Choose a View</h3>
+        <ul>
+          <li>
+            In the conversation window, click the Pop out video gallery arrow.
+          </li>
+          <li>
+            Click the Pick a layout button and choose a view:
+            <ul>
+              <li>Gallery View to show all the participants’ video streams.</li>
+              <li>Speaker View to show only the presenter’s.</li>
+              <li>Content View to show only the meeting content.</li>
+              <li>
+                Compact View to show pics of the participants in a compact
+                window.
+              </li>
+            </ul>
+          </li>
+          <li>Click Full Screen View for a large view of the video streams.</li>
+          <li>
+            Click Pop in the video gallery to show the gallery in the
+            conversation window again.
+          </li>
+        </ul>
+
+        <img src="img/c3.png" />
+        <h3>Answer a Video Call</h3>
+        <p>
+          When someone calls you, you will get an alert in the lower right of
+          your desktop. Make sure you are not wearing pajamas and that you don’t
+          have lettuce in your teeth!
+        </p>
+
+        <ul>
+          <li>To answer, click their pic.</li>
+          <li>To ignore, click Ignore.</li>
+          <li>
+            To start an instant messaging (IM) conversation with the caller
+            instead of an audio call, click Options, and then Reply by IM. To
+            reject the call and other calls, until you change your status, click
+            Options, and then Set to Do not Disturb.
+          </li>
+        </ul>
+
+        <h3>Start a Video Meeting</h3>
+        <p>
+          You can start an ad-hoc video meeting any time. If people are
+          available you can bring them into a meeting now instead of scheduling
+          one for later.
+        </p>
+
+        <ul>
+          <li>
+            In your Contacts list, select multiple contacts by holding the Ctrl
+            key and clicking their pics.
+          </li>
+          <li>
+            Right-click one of the selected names, and click Start a Video Call.
+            When you start a video call, you automatically use Skype for
+            Business computer audio
+          </li>
+        </ul>
+        <img src="img/c4.png" />
+
+        <div class="diver"></div>
+      </div>
+    </div>
+  </body>
 </html>

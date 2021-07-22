@@ -77,7 +77,7 @@ custom.css and it will override the style in this file. You have been warned! :)
   --global--color-primary-70: rgba(50, 195, 108, 0.7);
   --global--color-heading: #253745;
   --global--color-secondary: #2b3e4b;
-  --global--color-body: #9b9b9b;
+  --global--color-body: #3d3d3d;
   --global--color-white: #ffffff;
   --global--color-white-90: rgba(255, 255, 255, 0.9);
   --global--color-gray: #f9f9f9;
@@ -298,7 +298,7 @@ h6 {
 p {
   font-family: var(--global--font-body);
   color: var(--global--color-body);
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 28px;
 }
@@ -2511,6 +2511,9 @@ ul.list-icons li i {
   -webkit-box-shadow: 0px 5px 41.5px rgba(40, 40, 40, 0.11);
   box-shadow: 0px 5px 41.5px rgba(40, 40, 40, 0.11);
 }
+.header ul li {
+  list-style: none;
+}
 
 @media screen and (min-width: 992px) {
   .header {
@@ -2562,9 +2565,6 @@ ul.list-icons li i {
 }
 
 @media screen and (max-width: 767.98px) {
-  .header .navbar-brand .logo {
-    width: 100px;
-  }
 }
 
 .header.header-light {
@@ -19909,3 +19909,5 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 .nav-item a span {
   line-height: 1.2rem;
 }
+
+
